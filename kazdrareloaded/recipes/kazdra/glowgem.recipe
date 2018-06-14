@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "koorium", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "glowgem",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "lights", "all" ]
+}

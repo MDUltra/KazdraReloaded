@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 10 },
+	{ "item" : "zoastone", "count" : 4 },
+	{ "item" : "liquidfuel", "count" : 50 },
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "scorchedcore", "count" : 3 },
+	{ "item" : "moltencore", "count" : 1 },
+	{ "item" : "corefragmentore", "count" : 50 },
+	{ "item" : "rottenfood", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "quantonium",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace3", "ingredients", "all" ]
+}
