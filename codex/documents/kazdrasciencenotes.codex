@@ -1,0 +1,41 @@
+{
+  "id" : "kazdrascinotes",
+  "title" : "Study of the 'Kazdra' Race",
+  "icon" : "kazdracodexfront.png",
+  "contentPages" : [
+
+  "<Day 1>
+  We seem to have discovered a new race! We don't know much about them yet, but it looks promising! We are having trouble getting our translator to work, something about their language keeps making it identify as 'Draconic' and we're not sure if it's a bug or the truth.",
+
+	"<Day 5>
+  Well, we figured out why the translator always identified as 'Draconic', it's cause they are dragons! Well, they call themselves 'Kazdra', but the resemblance to dragons is truly uncanny, wings and scales and all! We have asked if they could meet us, and they said yes! How exciting, we get to see a new species!",
+
+	"<Day 18>
+  The testing is going well, and the Kazdra seem more then willing to help! Their tech seems pretty basic compared to the rest of the universe, but they do have star travel so there's that! Their homeworld is extremely poor in metals, so they mostly use crystals to create objects, which is interesting. That have graciously given us a few for testing purposes.",
+
+	"<Day 23>
+  There was a incident in the lab today. One of the interns who was helping accidentally spilled some of the Kazdra's blood onto his arm, and it left a nasty chemical burn and forced him to the medical bay. This stuff is extremely acidic and feels 'like someone set your skin on fire' is how the intern described it. poor guy...",
+
+	"<Day 37>
+  Another incident, this time it was... much worse. We found one of our glitch co-workers in pieces! Luckily we repaired him and asked who did that, and he angrily went on about 'That damn dragon'. Seems our Kazdra friend may have a more violent or dangerous side...",
+
+  "<Day 39>
+  It turns out the Kazdra and Glitch have a bad history with each other. Talking to the Kazdra, they said they sometimes get urges to hoard anything metallic and shiny... including glitch parts. This has caused numerous conflicts between Glitch and Kazdra, and almost started a war at one point.",
+
+  "<Day 48>
+  Testing of the Kazdra scales show it is highly resistant to heat, but not the cold. They seem to also be cold-blooded, explaining this weakness. Also, don't use the scales as a weapon or armor, they are too soft when not on a Kazdra to use.",
+
+  "<Day 53>
+  Another incident, another intern hurt... guess that's why we make them sign a waver. Anyways, a intern decided it would be fun to poke the Kazdra guest we had. It did not end well. Guess we know the Kazdra are carnivores now...",
+
+  "<Day 69>
+  We noticed the Kazdra's wings and asked if they work. They do indeed work, and the Kazdra can hold themselves up for a time, but they require powersuits for any long flights or if they need to carry something while flying. Seems their wings are just strong enough for short bursts of flight.",
+
+  "<Day 73>
+  At this rate, we're gonna need more interns. Another one annoyed the Kazdra and got severe 3rd degree burns. The Kazdra can breath fire! They seemingly use a chemical reaction that they force out of their mouth with a burst of air, there by 'breathing' the fire out. It's amazing it doesn't burn their mouths or insides either!",
+
+  "<Day 81>
+  Well, the Kazdra guest we had suddenly left, and said they could not stay any longer 'at that annoying science place'. Guess the interns trying to poke at it got too much. We learned enough anyways, so it's not that big of a deal, plus we now have open communications between the other races and the Kazdra. Hoping they play nice with everyone!"
+
+  ]
+}

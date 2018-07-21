@@ -1,9 +1,9 @@
 {
-"codexId" : "kazdraprologue",
-"title" : "Study of Kazdra",
+"codexId" : "kazdrasciencenotes",
+"title" : "Study of the 'Kazdra' Race",
 "codexkind" : "codex",
 "inventoryIcon" : "kazdracodexfront.png",
-"itemName" : "kazdraorigins",
+"itemName" : "kazdrascinotes",
 "rarity" : "common",
 "description" : "An scientific analysis of the Kazdra.",
 "shortdescription" : "Study Kazdra"
