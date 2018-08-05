@@ -8,7 +8,7 @@
 
   "category" : "light",
   "price" : 500,
-  "lightColor" : [43, 203, 127],
+  "lightColor" : [46, 152, 102],
 
   "apexDescription" : "A small cluster of gems. They seem to be phosphorescent.",
   "avianDescription" : "They remind me of the gems in our temples.",
