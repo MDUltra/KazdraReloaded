@@ -4,7 +4,7 @@
   "level" : 2,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "It's a greatsword crafted from crystal. The quality's not the best, but it gets the job done.",
+  "description" : "A greatsword crafted from crystal. The quality is not the best, but it gets the job done.",
   "shortdescription" : "Yggdran",
   "tooltipKind" : "sword",
   "category" : "broadsword",
