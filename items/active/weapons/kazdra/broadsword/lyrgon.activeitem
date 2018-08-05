@@ -4,7 +4,7 @@
   "price" : 1500,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "A fine great sword. This blade is a testament to the smith's skills though it seems unfinished...",
+  "description" : "A complicated greatsword. Much time and care was put into its construction.",
   "shortdescription" : "Lyrgon",
   "tooltipKind" : "sword",
   "category" : "broadsword",
