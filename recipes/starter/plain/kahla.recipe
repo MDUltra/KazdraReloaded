@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "money", "count" : 1 }
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "wheat", "count" : 2 }
   ],
   "output" : {
     "item" : "kahla",
