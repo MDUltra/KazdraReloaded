@@ -4,7 +4,7 @@
   "price" : 1500,
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "This sword tests the crafter's skill to craft purely with metal.",
+  "description" : "This sword was made hastily from metal, wood and crystal.",
   "shortdescription" : "tyrfing",
   "tooltipKind" : "sword",
   "category" : "shortsword",

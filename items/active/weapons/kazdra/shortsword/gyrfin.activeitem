@@ -4,7 +4,7 @@
   "price" : 1500,
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "A strong kazdran blade. It takes fine metalworking and gemcrafting skills to make a sword like this.",
+  "description" : "A strong blade. It takes fine metalworking and gemcrafting skills to make a sword like this.",
   "shortdescription" : "Gyrfin",
   "tooltipKind" : "sword",
   "category" : "shortsword",
