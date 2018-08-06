@@ -4,7 +4,7 @@
   "price" : 1245,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "This greatsword was designed to look like the fiery breath of a guardian of the underworld.",
+  "description" : "This greatsword was designed more for vanity than practicality.",
   "shortdescription" : "Ceribdus",
   "tooltipKind" : "sword",
   "category" : "broadsword",

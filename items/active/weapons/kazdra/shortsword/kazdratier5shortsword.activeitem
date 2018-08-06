@@ -4,7 +4,7 @@
   "price" : 540,
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "An elegant resonance blade, more compact than its predecessor.",
+  "description" : "An elegantblade, more compact than its predecessor.",
   "shortdescription" : "Daverish",
   "tooltipKind" : "sword",
   "category" : "shortsword",

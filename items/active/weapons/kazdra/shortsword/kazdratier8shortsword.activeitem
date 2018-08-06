@@ -4,7 +4,7 @@
   "price" : 980,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "A resonance blade fashioned after a sword of myth. I've tuned the resonance field to be as fine as you can get.",
+  "description" : "This blade is crafted after a weapon wielded by a hero of legend.",
   "shortdescription" : "Werund",
   "tooltipKind" : "sword",
   "category" : "shortsword",

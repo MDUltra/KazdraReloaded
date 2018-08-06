@@ -4,7 +4,7 @@
   "price" : 1080,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "A resonance blade of incredible power and angelic design. It's two orbital blades are held in place by a complex resonance field",
+  "description" : "This blade is useful, but it seems to have been made more for vanity.",
   "shortdescription" : "Adsion",
   "tooltipKind" : "sword",
   "category" : "shortsword",
