@@ -16,5 +16,6 @@
     ] ],
   //"emote" : "",
   //"emitters" : [ "drinkinghealing" ]
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "kahla2" ]
 }
