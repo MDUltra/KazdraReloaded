@@ -1,9 +1,9 @@
 {
   "input" : [
 	{ "item" : "resonite", "count" : 100 },
-	{ "item" : "corefragmentore", "count" : 40 },
+	{ "item" : "hiron", "count" : 50 },
 	{ "item" : "solariumstar", "count" : 6 },
-	{ "item" : "hiron", "count" : 50 }
+	{ "item" : "corefragmentore", "count" : 40 }
   ],
   "output" : {
     "item" : "quantonium",
