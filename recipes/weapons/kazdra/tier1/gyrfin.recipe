@@ -1,11 +1,13 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 1 },
-    { "item" : "money", "count" : 1 }
+    { "item" : "resonite", "count" : 30 },
+    { "item" : "zoastone", "count" : 20 },
+    { "item" : "koorium", "count" : 5 },
+    { "item" : "titaniumbar", "count" : 5 }
   ],
   "output" : {
     "item" : "gyrfin",
     "count" : 1
   },
-  "groups" : [ "plain", "objects", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }
