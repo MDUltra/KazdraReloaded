@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 55 },
-    { "item" : "refinedaegisalt", "count" : 8 }
+    { "item" : "hiron", "count" : 35 },
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "goldbar", "count" : 5 }
   ],
   "output" : {
     "item" : "kazdratier5shortsword",

@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 100 }
+    { "item" : "hiron", "count" : 15 },
+    { "item" : "resonite", "count" : 15 },
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "ironbar", "count" : 3 }
   ],
   "output" : {
     "item" : "kazdratier2axe",

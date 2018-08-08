@@ -1,6 +1,7 @@
 {
   "input" : [
-	{ "item" : "titaniumbar", "count" : 14 }
+        { "item" : "zoastone", "count" : 30 },
+        { "item" : "tungstenbar", "count" : 8 }
   ],
   "output" : {
     "item" : "kazdratier3spear",

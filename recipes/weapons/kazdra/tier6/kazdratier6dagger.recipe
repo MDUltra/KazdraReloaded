@@ -1,11 +1,12 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 45 },
-	{ "item" : "refinedferozium", "count" : 5 }
+    { "item" : "zoastone", "count" : 40 },
+    { "item" : "koorium", "count" : 5 },
+    { "item" : "refinedferozium", "count" : 8 }
   ],
   "output" : {
     "item" : "kazdratier6dagger",
     "count" : 1
   },
-  "groups" : [ "craftinganvil3", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
 }

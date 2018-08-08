@@ -1,12 +1,13 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 120 },
-    { "item" : "refinedviolium", "count" : 10 },
-	{ "item" : "refinedferozium", "count" : 10 }
+    { "item" : "agirezon", "count" : 50 },
+    { "item" : "kazein", "count" : 6 },
+    { "item" : "goldbar", "count" : 6 },
+    { "item" : "solariumstar", "count" : 8 }
   ],
   "output" : {
     "item" : "kazdratier9spear",
     "count" : 1
   },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

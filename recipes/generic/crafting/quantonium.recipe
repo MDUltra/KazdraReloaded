@@ -1,13 +1,9 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 10 },
-	{ "item" : "zoastone", "count" : 4 },
-	{ "item" : "liquidfuel", "count" : 50 },
-	{ "item" : "solariumstar", "count" : 10 },
-	{ "item" : "scorchedcore", "count" : 3 },
-	{ "item" : "moltencore", "count" : 1 },
-	{ "item" : "corefragmentore", "count" : 50 },
-	{ "item" : "rottenfood", "count" : 10 }
+	{ "item" : "resonite", "count" : 100 },
+	{ "item" : "hiron", "count" : 50 },
+	{ "item" : "solariumstar", "count" : 6 },
+	{ "item" : "corefragmentore", "count" : 40 }
   ],
   "output" : {
     "item" : "quantonium",

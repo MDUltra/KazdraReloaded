@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 50 },
-    { "item" : "durasteelbar", "count" : 10 }
+    { "item" : "resonite", "count" : 20 },
+    { "item" : "zoastone", "count" : 15 },
+    { "item" : "titaniumbar", "count" : 30 }
   ],
   "output" : {
     "item" : "kazdratier4broadsword",

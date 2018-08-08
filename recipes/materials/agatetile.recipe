@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "agirezon", "count" : 3 }
+    { "item" : "resonite", "count" : 10 },
+    { "item" : "zoastone", "count" : 5 }
   ],
   "output" : {
     "item" : "agatetile",

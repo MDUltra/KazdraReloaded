@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "hiron", "count" : 30 },
+    { "item" : "resonite", "count" : 60 },
     { "item" : "durasteelbar", "count" : 8 },
-    { "item" : "goldbar", "count" : 5 }
+    { "item" : "titaniumbar", "count" : 20 }
   ],
   "output" : {
-    "item" : "kazdratier5dagger",
+    "item" : "lyrgon",
     "count" : 1
   },
   "groups" : [ "craftinganvil3", "weapons", "all" ]

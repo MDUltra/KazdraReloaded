@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 25 },
-    { "item" : "climbingrope", "count" : 4 }
+    { "item" : "kazein", "count" : 1 },
+    { "item" : "resonite", "count" : 20 },
+    { "item" : "darkwoodmaterial", "count" : 10 }
   ],
   "output" : {
     "item" : "kazdratier1spear",

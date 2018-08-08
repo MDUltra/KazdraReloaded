@@ -1,11 +1,12 @@
 {
   "input" : [
-    { "item" : "hiron", "count" : 55 },
-    { "item" : "kazein", "count" : 5 },
+    { "item" : "resonite", "count" : 100 },
+    { "item" : "zoastone", "count" : 50 },
+    { "item" : "hiron", "count" : 50 },
     { "item" : "refinedviolium", "count" : 10 }
   ],
   "output" : {
-    "item" : "kazdratier7shortsword",
+    "item" : "ktestsword",
     "count" : 1
   },
   "groups" : [ "craftingseparator", "weapons", "all" ]

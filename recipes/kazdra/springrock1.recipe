@@ -7,5 +7,5 @@
     "item" : "springrock1",
     "count" : 1
   },
-  "groups" : [ "plain" ]
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
 }

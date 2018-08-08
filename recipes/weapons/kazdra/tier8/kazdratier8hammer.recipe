@@ -1,11 +1,12 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 100 },
-	{ "item" : "refinedviolium", "count" : 10 }
+        { "item" : "resonite", "count" : 60 },
+        { "item" : "quantonium", "count" : 8 },
+        { "item" : "refinedaegisalt", "count" : 10 }
   ],
   "output" : {
     "item" : "kazdratier8hammer",
     "count" : 1
   },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
 }
