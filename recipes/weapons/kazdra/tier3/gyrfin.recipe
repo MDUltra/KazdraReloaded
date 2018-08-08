@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "resonite", "count" : 20 },
+    { "item" : "koorium", "count" : 5 },
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "darkwoodmaterial", "count" : 10}
+  ],
+  "output" : {
+    "item" : "gyrfin",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

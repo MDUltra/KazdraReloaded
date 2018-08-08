@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 2 },
-    { "item" : "kazein", "count" : 4 }
+    { "item" : "resonite", "count" : 5 },
+    { "item" : "kazein", "count" : 2 }
   ],
   "output" : {
     "item" : "crystallight1",
