@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "resonite", "count" : 10 },
     { "item" : "kazein", "count" : 2 },
+    { "item" : "resonite", "count" : 15 },
     { "item" : "darkwoodmaterial", "count" : 10 }
   ],
   "output" : {
