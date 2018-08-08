@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "hiron", "count" : 50 },
-    { "item" : "darkwoodmaterial", "count" : 20 },
-    { "item" : "ironbar", "count" : 5 }
+    { "item" : "hiron", "count" : 10 },
+    { "item" : "resonite", "count" : 15 },
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
     "item" : "kazdratier2shortsword",
