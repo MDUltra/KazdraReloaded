@@ -1,0 +1,321 @@
+[
+	{
+		"op": "add",
+		"path": "/share_secret/pleaseTakeReply/kazdra",
+		"value": {
+			"default": [
+				"Oi! Much appreciated! Take this back to <questGiver>, zuu.",
+				"Hmm, ai'ght. Give this to <questGiver>, kezha."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/intimidate/intimidated/kazdra",
+		"value": {
+			"default": [
+				"Ay, take it easy, kezha! I'll do what <questGiver> wants. Just keep that <item> down...",
+				"Woah, put that <item> down! I'll do what <questGiver> wants..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/intimidate/notIntimidated/kazdra",
+		"value": {
+			"default": [
+				"Kezha! You don't scare me! Now run along and tell <questGiver> I will not comply.",
+				"Hah! You think I give a care about <questGiver>?! Ya make quite the jester, zuu.",
+				"Ya must be hopped up on Kahla if ya think I'm scared of you or <questGiver>."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/bribe/giftAccepted/kazdra",
+		"value": {
+			"default": [
+				"Ay, are you bribing me...? Whatever, I can't say no to more stuff. Give my regards to <questGiver> for me.",
+				"You're terrible at hiding a bribe, zuu. I'll take it if it means shutting <questGiver> up.",
+				"A gift? No, this is more of a bribe. Kezha, I see no harm in it. Give <questGiver> my thanks."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/bribe/giftAccepted2/kazdra",
+		"value": {
+			"default": [
+				"What could <questGiver> possibly want from me, zweh?",
+				"It's obvious that <questGiver> wants something from me now..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/bribe/requestAdditionToHouse/kazdra",
+		"value": {
+			"default": [
+				"Ay, I'm far to busy to put this item in my home. Could ya take care of it?",
+				"You seem reliable, kezha. Could ya find a place in my home t' put this?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gift/giftAccepted/kazdra",
+		"value": {
+			"default": [
+				"Heh, I guess <questGiver> does appreciate me, after all, kezha.",
+				"How odd, it's uncommon for <questGiver> to give me something... Give them my thanks, zuu.",
+				"Huh, a gift? That's really thoughtful of <questGiver>.",
+				"A gift, eh? Ai'ght. Give <questGiver> my regards."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gift/giftAccepted2/kazdra",
+		"value": {
+			"default": [
+				"<questGiver> seems like a good friend, zweh. Guess I'll find something for them in return.",
+				"Perhaps I should've given <questGiver> more credit, zuu.",
+				"Kezha! <questGiver> is someone I can trust."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gift/requestAdditionToHouse/kazdra",
+		"value": {
+			"default": [
+				"Ay, I'm far to busy to put this item in my home. Could ya take care of it?",
+				"You seem reliable, kezha. Could ya find a place in my home t' put this?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/return_stolen/objectTaken/kazdra",
+		"value": {
+			"default": [
+				"*Snarl* That's MY <item>! Kezha, I won it fair and square!",
+				"I can't believe you'd be taking things from my hoard, zweh!",
+				"That <item> was always there, it's not like I'm hoarding people's belongings, zuu..",
+				"'Kay, I 'promise' I won't take anything else."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/collect_fine/fineCollected/kazdra",
+		"value": {
+			"default": [
+				"Why do you insist on taking from my stash? Whatever, jus' get off my back!",
+				"My hoard is running dry, zuu. That's why I was hiding from payment, but ya caught me.",
+				"I was never keen on giving things away, jus' take it and go."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/collect_gift/giftProvided/kazdra",
+		"value": {
+			"default": [
+				"There y' are! One <item> specially for <questGiver>!",
+				"I found the <item> that was requested by <questGiver>. I hope it's enough, zuu.",
+				"There we are! Give this <item> to <questGiver>, zweh."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/request_craft/giftProvided/kazdra",
+		"value": {
+			"default": [
+				"I made the <item> ya wanted.",
+				"Be just a minute, gotta make that <item> for you.",
+				"Lucky I made this <item> preemptively."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/borrow/giftProvided/kazdra",
+		"value": {
+			"default": [
+				"Yea, I guess <questGiver> can use this <item>. They'd better bring it back, zweh.",
+				"Here's the <item> <questGiver> wants to borrow. Make sure you drill the idea that I want it back into their skull, kezha!",
+				"People'r always take'n things from me. I'm gonna have nothin left come a few days!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/extort/giftProvided/kazdra",
+		"value": {
+			"default": [
+			//Might have to change these up for taking rather than returning.
+				"Ai'ght, take the <item> already, kezha! I was done wit it anyway...",
+				"Here I was hoping on keeping <questGiver>'s <item> for myself. Guess they've caught wind."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/hat/crafting/kazdra",
+		"value": {
+			"default": [
+				"Ah, ya've got the materials! Zweh, just hang tight for a minute.",
+				"You've got the items, zuu? Perfect, lemme make this real quick."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/hat/crafted/kazdra",
+		"value": {
+			"default": [
+				"All done, kezha! Go and bring this to <questGiver>.",
+				"Took a tad longer than I though, but the parcel for <questGiver> is complete, zuu!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/helmet/crafting/kazdra",
+		"value": {
+			"default": [
+				"Ah, ya've got the materials! Zweh, just hang tight for a minute.",
+				"You've got the items, zuu? Perfect, lemme make this real quick."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/helmet/crafted/kazdra",
+		"value": {
+			"default": [
+				"All done, kezha! Go and bring this to <questGiver>.",
+				"Took a tad longer than I though, but the parcel for <questGiver> is complete, zuu!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/new_stock/trade/kazdra",
+		"value": {
+			"default": [
+				"Ay, you here for <questGiver>'s parcel? I've got it here for ya. Give <questGiver> my regards, kezha!",
+				"Hmm? ya here on <questGiver>'s behalf? Here's their parcel, zuu.",
+				"Hold on, I've got <questGiver>'s things right... here, zuu."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kidnapping/kidnappersDead/kazdra",
+		"value": {
+			"default": [
+				"They took me by surprise, zuu. Thanks for coming to my aid!",
+				"They bested me and took my weapons. You sure gave them what-for, kezha!",
+				"My thanks. I don't know what they were plotting to do with me, zuu...",
+				"I passed out at some point, zweh-- they were there when I woke up!",
+				"Phew, am I glad you came along, kezha!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kidnapping/followHome/kazdra",
+		"value": {
+			"default": [
+				"They hit me over the head with something, zuu. I can't find my way home...",
+				"I don' feel safe traveling alone. Could ya guide me to safety, zuu?",
+				"My head is spinning, which way are the mines...? Is <questGiver> there?",
+				"Oh look, zuu! There are three... No FOUR birds! Why're they circling me...?",
+				"I think they've broken one of my wings, zuu... could you escort me back home to <questGiver>?",
+				"I was with <questGiver> at some point. How long ago was that...?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/escort/found/kazdra",
+		"value": {
+			"default": [
+				"These aren't the locals I'm used to, zweh. Could you take me to <questGiver>?",
+				"Zweh? Has <questGiver> sent you to look for me? I'm glad they made it out alive.",
+				"I'm a tad lost, friend. Could you lead me back to <questGiver>? I reckon they're back at the mines by now."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/barter/trade/kazdra",
+		"value": {
+			"default": [
+				"Ay, thanks for the goods, mate. Here's <questGiver>'s <receivedItems>.",
+				"One... Two... Ai'ght, Here's the <receivedItems> that <questGiver> ordered, zweh."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/escort_trade/collectDelivery/kazdra",
+		"value": {
+			"default": [
+				"Ay mate. You bring the stuff?",
+				"Oi, don't just sit there, zuu. Did you bring my delivery?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/escort_trade/provideDelivery/kazdra",
+		"value": {
+			"default": [
+				"Here you are, friend-- your compensation!",
+				"Here, mate. These are for you."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kill_npcs/assistantIntro/kazdra",
+		"value": {
+			"default": [
+				"Ay mate! I was contracted to help you tear the <enemy> apart! Let's show 'em no mercy, kezha!",
+				"Oi! Let's give this <enemy> no quarter!",
+				"Heh, it's you. Never thought I'd be working with a protector!"
+			],
+			"kazdra": [
+				"Ay mate! I was contracted to help you tear the <enemy> apart! Let's show 'em no mercy, kezha!",
+				"Oi! Let's give this <enemy> no quarter! Perhaps we can go for a pint once all of this is done? Haha!",
+				"Heh, it's you. Never thought I'd be working with another kazdra-- a renown one no less!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kill_npc/surrender/kazdra",
+		"value": {
+			"default": [
+				"Alright, I know when I've been bested, zuu. Cease your attack!",
+				"I give in, kezha! Spare me!",
+				"Hold yer fire! I give up!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/kill_npc/betray/kazdra",
+		"value": {
+			"default": [
+				"Hah! You're dumber than you look, kezha!",
+				"You've fallen for my lie, hatchling!",
+				"You fallen for that? Haha! The oldest trick in Kazdran lore!"
+			]
+		}
+	}
+]

@@ -1,0 +1,140 @@
+[
+	{
+		"op": "add",
+		"path": "/merchantStart/kazdra",
+		"value": {
+			"default": [
+				"Everythin's for sale, kezha!",
+				"Looking to trade? I've got only the finest products, kezha!",
+				"If somethings weighing ya down, zuu, I'd be glad to buy it! Especially if it's metal!"
+				
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/kazdra",
+		"value": {
+			"default": [
+				"Oi! I'm still open if ya need somth'n!",
+				"That's all yer spendin, huh?",
+				"Come on back whenever you want to spend! Kezha!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/kazdra",
+		"value": {
+			"default": [
+				"Th' shop's this way, zuu.",
+				"The goods are at my shop, zweh.",
+				"Kezha, follow me to my shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/kazdra",
+		"value": {
+			"default": [
+				"If it's Kahla you're looking for, zuu, I may have some.",
+				"Need some tools, zweh? I may have what you're looking for.",
+				"Come closer... I might be able to cut ya a deal."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/kazdra",
+		"value": {
+			"default" : [
+				"Everything's for sale, kezha!",
+				"Looking to trade? I've got only the finest products, kezha!",
+				"If something's weighing ya down, zuu, I'd be glad to buy it!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tagCriteria/kazdra",
+		"value": {
+			"default" : [
+				"Ay, Somthin's not right...",
+				"Ya steal somethin from me?",
+				"I don' know what ya did, but I don't like it."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/kazdra",
+		"value": {
+			"default" : [
+				"My shop's damaged, zuu. Can ya fix it up for me?",
+				"Ay! these walls're deterring customers. Could ya do them up again?",
+				"The shop's look'n run down, zweh. Can ya give me a hand?"
+			],
+			"glitch" : [
+				"My shop's damaged, zuu. Can ya fix it up for me?",
+				"Ay! these walls're deterring customers. Could ya do them up again?",
+				"The shop's look'n run down, zweh. Can ya give me a hand, or better yet an arm?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/kazdra",
+		"value": {
+			"default" : [
+				"Ey, I nev'r agreed to this!",
+				"Kezha! I'm not sharing my stock!",
+				"Ya really think I'm gonna to share a store with my competitors?!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/kazdra",
+		"value": {
+			"default" : [
+				"You've gotta fix this place up, mate. Customers're avoiding this place!",
+				"*Grumble* This room's a mess. *Grumble*",
+				"Ya have some nerve if ya think this is acceptable, mate."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/kazdra",
+		"value": {
+			"default" : [
+				"These conditions are abhorrent, zuu. I cannot stay here.",
+				"I'd make a better living on a planet full of thieves, kezha! I'm outta here!",
+				"I've had enough of this, zweh. I'll find a better place to set up shop."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/beacon/kazdra",
+		"value": {
+			"default" : [
+				"Oi! I'm here! What'cha need?",
+				"Came as quickly as I could, friend. You lookin' to trade?",
+				"I wasn't expecting a visitor; what can I get'cha?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/kazdra",
+		"value": {
+			"default" : [
+				"Here's a little somethin' for ya-- On the house, kezha!",
+				"Buisness is going well, mate. I've got this to thank ya with.",
+				"It's no precious metal or kahla, zuu, but I hope you can make use of this."
+			]
+		}
+	}
+]

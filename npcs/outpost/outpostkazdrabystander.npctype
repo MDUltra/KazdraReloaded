@@ -1,0 +1,40 @@
+{
+  "type" : "outpostkazdrabystander",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Kezha, Good to see adventurers like you running amok!"
+          ]
+        },
+        "kazdra" : {
+          "default" : [
+            "Kezha, Good to see adventurers like you running amok!"
+          ],
+          "kazdra" : [
+            "You remind me of me, zweh. I used to carry a weapon very similar to yours before our homeworld collapsed."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+		  //This clothing collection should be replaced with something more suiting.
+            "head" : [""],
+            "chest" : [ { "name" : "bellshirt", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "thiefskals", "parameters" : { "colorIndex" : 1 } } ]
+          }
+        ] ]
+    ]
+  }
+}

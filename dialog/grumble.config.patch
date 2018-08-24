@@ -1,0 +1,56 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/kazdra",
+		"value": {
+			"default": [
+				"Something feels off, zweh, but I can't put my claw on it.",
+				"Did something happen? Something's definitely changed, zuu."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/kazdra",
+		"value": {
+			"default": [
+				"Ay! This room is damaged! I need repairs, stat!",
+				"Oi! my living quarters are damaged! I can't live in these conditions."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/kazdra",
+		"value": {
+			"default": [
+				"You nev'r said anything about sharing!",
+				"Kezha, fine then. I'll take them on!",
+				"Zuu, Ya never mentioned anything about this, mate...",
+				"I'm not sharing my wealth, friend.",
+				"Zweh, I didn't agree to having a roommate, y'know."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/kazdra",
+		"value": {
+			"default": [
+				"Zuu, ya really gotta get this straightened out.",
+				"kezha, I won't tolerate living in these conditions."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/kazdra",
+		"value": {
+			"default": [
+				"This place is the sticks! I cannot take any more of this!",
+				"Kezha! Living on my home planet now is better at this point!",
+				"Zuu, You've ignored my requests for far too long now. I'm leaving."
+			]
+		}
+	}
+]

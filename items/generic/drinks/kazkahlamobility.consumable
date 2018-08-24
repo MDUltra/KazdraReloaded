@@ -1,0 +1,32 @@
+{
+  "itemName" : "kazkahlamobility",
+  "rarity" : "Common",
+  "price" : 0,
+  "category" : "drink",
+  "inventoryIcon" : "kazkahlamobility.png",
+  "description" : "Kahla. It'll give you a short burst of hyperactiveness! Though it doesn't look too healthy...",
+  "shortdescription" : "Kahla",
+  "handPosition" : [-1, 3],
+  "armFrameOverride" : "run.3",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 15
+      },
+      {
+        "effect" : "jumpboost",
+        "duration" : 15
+      },
+      {
+        "effect" : "weakpoison",
+        "duration" : 10
+      },
+      {
+        "effect" : "kazmaxhealthloss",
+        "duration" : 15
+      }
+    ] ],
+  //"emote" : "",
+  //"emitters" : [ "drinkinghealing" ]
+  "emitters" : [ "drinking" ]
+}

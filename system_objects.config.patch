@@ -1,0 +1,26 @@
+[
+	/*{
+		"op": "add",
+    	"path": "/testShip",
+    	"value": {
+    		
+    		"warpAction" : "InstanceWorld:testShip",
+    		"threatLevel" : 1,
+		    "skyParameters" : {
+		      "seed" : 0,
+		      "horizonClouds" : false,
+		      "horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+		    },
+
+		    "moving" : true,
+		    "speed" : 10.0,
+		    "orbitRange" : [1, 1],
+		    "lifeTime" : [1500, 2100],
+		    "parameters" : {
+		      "icon" : "/celestial/system/ships/kazship.png",
+		      "displayName" : "Kazdran Ship",
+		      "description" : "Placeholder text."
+		    }
+    	}
+	}*/
+]

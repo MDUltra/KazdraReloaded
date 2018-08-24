@@ -1,0 +1,32 @@
+{
+  "itemName" : "kazkahlaenergy",
+  "rarity" : "Common",
+  "price" : 0,
+  "category" : "drink",
+  "inventoryIcon" : "kazkahlaenergy.png",
+  "description" : "Kahla. It'll make you energetic! Though it may be a bit overwhelming at first.",
+  "shortdescription" : "Kahla",
+  "handPosition" : [-1, 3],
+  "armFrameOverride" : "run.3",
+  "effects" : [ [
+      {
+        "effect" : "colorpurple",
+        "duration" : 2
+      },
+      {
+        "effect" : "energyregen",
+        "duration" : 5
+      },
+      {
+        "effect" : "maxenergyscalingboost",
+        "duration" : 34
+      },
+      {
+        "effect" : "stun",
+        "duration" : 2
+      }
+    ] ],
+  //"emote" : "",
+  //"emitters" : [ "drinkinghealing" ]
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "kazcrystalcrafting",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "Common",
+  "description" : "Temp place for all your crafting needs!",
+  "shortdescription" : "Kazdran Crafting",
+  "race" : "kazdra",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kazcrystalcrafting.config",
+    "filter" : [ "kazdracrafting" ]
+  },
+
+  "printable" : false,
+  "price" : 0,
+
+  "apexDescription" : "--APEX--",
+  "avianDescription" : "--AVIAN--",
+  "floranDescription" : "--FLORAN--",
+  "glitchDescription" : "--GLITCH--",
+  "humanDescription" : "--HUMAN--",
+  "hylotlDescription" : "--HYLOTL--",
+  "novakidDescription" : "--NOVAKID--",
+  "kazdraDescription" : "--KAZDRA--",
+
+  "inventoryIcon" : "kazcrystalcraftingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kazcrystalcrafting.png:<color>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

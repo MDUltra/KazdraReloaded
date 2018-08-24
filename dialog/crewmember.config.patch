@@ -1,0 +1,16 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/kazdra",
+		"value": {
+			"default": [
+				"Zuu, I miss life in the mines.",
+				"*Whistles*",
+				"Travelling with the cap'n is fun, zweh. I wish we'd go on more adventures...",
+				"Kezha, is something the matter?",
+				"Mining has nothing on space travel, Kezha!",
+				"I think my wing is broken. Zuu..."
+			]
+		}
+	}
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/kazdra",
+		"value": {
+			"default": [
+				"I've no weapons, I need assistance!",
+				"Zweh! I need backup; I'm unarmed!",
+				"Zuu, I'm not ready to die!",
+				"Blast it, I knew I should've brought a weapon...",
+				"If this keeps up, I'll die! Help!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/safe/kazdra",
+		"value": {
+			"default": [
+				"Huh? Are they gone?",
+				"Kezha... I can live another day.",
+				"I think I'm safe now, zweh.",
+				"I could've taken them had I brought arms, zuu, oh well.",
+				"Zuu, I was never good at fighting...",
+				"Zuu, I never liked confrontation...",
+				"*Grumble* I think I broke something. *Grumble*"
+			]
+		}
+	}
+]

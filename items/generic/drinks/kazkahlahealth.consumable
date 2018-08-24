@@ -1,0 +1,28 @@
+{
+  "itemName" : "kazkahlahealth",
+  "rarity" : "Common",
+  "price" : 0,
+  "category" : "drink",
+  "inventoryIcon" : "kazkahlahealth.png",
+  "description" : "Kahla. It'll make you feel better, but you'll be tired.",
+  "shortdescription" : "Kahla",
+  "handPosition" : [-1, 3],
+  "armFrameOverride" : "run.3",
+  "effects" : [ [
+      {
+        "effect" : "maxhealthboost20",
+        "duration" : 40
+      },
+      {
+        "effect" : "regeneration3",
+        "duration" : 35
+      },
+      {
+        "effect" : "kazmaxenergyloss",
+        "duration" : 8
+      }
+    ] ],
+  //"emote" : "",
+  //"emitters" : [ "drinkinghealing" ]
+  "emitters" : [ "drinking" ]
+}

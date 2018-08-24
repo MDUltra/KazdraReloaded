@@ -1,0 +1,11 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/kazdra",
+		"value": {
+			"default": [
+				"--Ship crew--"
+			]
+		}
+	}
+]

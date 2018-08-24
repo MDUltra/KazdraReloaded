@@ -1,0 +1,1034 @@
+{
+  "metadata" : {
+    "name" : "kazvillage1",
+    "species" : "dummy",
+    "rules" : [
+    ],
+    "anchor" : [ "kazmountain1" ],
+    "gravity" : 80,
+    "maxRadius" : 2000,
+    "maxParts" : 30,
+	"protected" : false
+  },
+  "tiles" : [
+    {
+      "value" : [255, 0, 220, 255],
+      "comment" : "magic pinkppp, a no-op value"
+    },
+    {
+      "value" : [0, 0, 0, 255],
+      "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
+    },
+
+    {
+      "value" : [255, 255, 255, 255],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [111, 28, 149, 255],
+      "comment" : "bright, entrance coupler",
+      "connector" : true
+    },
+    {
+      "value" : [185, 79, 79, 255],
+      "comment" : "tunnel coupler",
+      "connector" : true
+    },
+    {
+      "value" : [32, 32, 32, 255],
+      "comment" : "Empty hole",
+      "brush" : [ [ "clear" ] ]
+    },
+
+    {
+      "value" : [128, 128, 128, 255],
+      "comment" : "Biome tile brush",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [100, 100, 100, 255],
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [ [ "surface" ] ]
+    },
+
+    {
+      "value" : [200, 200, 200, 255],
+      "comment" : "Biome tile background brush",
+      "brush" : [ [ "clear" ], [ "surfacebackground" ] ]
+    },
+
+    {
+      "value" : [68, 206, 74, 255],
+      "comment" : "crystal stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "woodgemplatform" ] ]
+    },
+
+    {
+      "value" : [201, 152, 81, 255],
+      "comment" : "wooden stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "woodenplatform" ] ]
+    },
+	
+	{
+      "value" : [153, 185, 67, 255],
+      "comment" : "ancient stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "ancientplatform" ] ]
+    },
+	
+	{
+      "value" : [208, 218, 216, 255],
+      "comment" : "stone stairs/platform",
+      "brush" : [ [ "clear" ], [ "front", "stoneplatform" ] ]
+    },
+
+    {
+      "value" : [118, 68, 34, 255],
+      "comment" : "background kazwoodflooring",
+      "brush" : [ [ "clear" ], [ "back", "kazwoodflooring" ] ]
+    },
+
+    {
+      "value" : [153, 76, 113, 255],
+      "comment" : "foreground junktech overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "junktech" ], [ "front", "junktech" ] ]
+    },
+
+    {
+      "value" : [165, 101, 58, 255],
+      "comment" : "foreground kazwoodflooring",
+      "brush" : [ [ "clear" ], [ "back", "kazwoodflooring" ], [ "front", "kazwoodflooring" ] ]
+    },
+
+    {
+      "value" : [203, 201, 197, 255],
+      "comment" : "background stone12 overwritable",
+	  "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "rock12" ] ]
+    },
+
+    {
+      "value" : [216, 212, 204, 255],
+      "comment" : "foreground stone12 overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "rock12" ], [ "front", "rock12" ] ]
+    },
+
+    {
+      "value" : [228, 220, 205, 255],
+      "comment" : "foreground rock12",
+      "brush" : [ [ "clear" ], [ "back", "rock12" ], [ "front", "rock12" ] ]
+    },
+
+    {
+      "value" : [210, 201, 184, 255],
+      "comment" : "background stone12",
+      "brush" : [ [ "clear" ], [ "back", "rock12" ] ]
+    },
+
+    {
+      "value" : [89, 98, 179, 255],
+      "comment" : "background direstone overwritable",
+      "rules" : [ [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ], [ "back", "direstone" ] ]
+    },
+
+    //{
+      //"value" : [76, 84, 153, 255],
+      //"comment" : "foreground direstone overwritable",
+      //"rules" : [ [ "allowOverdrawing" ] ],
+      //"brush" : [ [ "clear" ], [ "back", "direstone" ], [ "front", "direstone" ] ]
+    //},
+
+    {
+      "value" : [125, 111, 85, 255],
+      "comment" : "foreground direstone",
+      "brush" : [ [ "clear" ], [ "back", "direstone" ], [ "front", "direstone" ] ]
+    },
+	
+	{
+      "value" : [85, 75, 57, 255],
+      "comment" : "background direstone",
+      "brush" : [ [ "clear" ], [ "back", "direstone" ] ]
+    },
+
+    {
+      "value" : [111, 98, 90, 255],
+      "comment" : "background rustymetal",
+      "brush" : [ [ "clear" ], [ "back", "rustymetal" ] ]
+    },
+
+    //{
+      //"value" : [251, 255, 128, 255],
+      //"comment" : "background kazship1",
+      //"brush" : [ [ "clear" ], [ "back", "kazship1" ] ]
+    //},
+    //{
+      //"value" : [201, 204, 102, 255],
+      //"comment" : "foreground kazship1",
+      //"brush" : [ [ "clear" ], [ "back", "kazship1" ], [ "front", "kazship1" ] ]
+    //},
+
+    //{
+      //"value" : [255, 187, 128, 255],
+      //"comment" : "background crystalpanel",
+      //"brush" : [ [ "clear" ], [ "back", "crystalpanel" ] ]
+    //},
+
+    //{
+      //"value" : [204, 150, 102, 255],
+      //"comment" : "foreground crystalpanel",
+      //"brush" : [ [ "clear" ], [ "back", "crystalpanel" ], [ "front", "crystalpanel" ] ]
+    //},
+
+    //{
+      //"value" : [205, 255, 128, 255],
+      //"comment" : "background glass",
+      //"brush" : [ [ "clear" ], [ "back", "glass" ] ]
+    //},
+
+    {
+      "value" : [173, 234, 247, 255],
+      "comment" : "foreground glass",
+      "brush" : [ [ "clear" ], [ "front", "glass" ] ]
+    },
+
+    {
+      "value" : [31, 34, 37, 255],
+      "comment" : "background darksmoothstone",
+      "brush" : [ [ "clear" ], [ "back", "darksmoothstone" ] ]
+    },
+
+    {
+      "value" : [65, 71, 78, 255],
+      "comment" : "foreground darksmoothstone",
+      "brush" : [ [ "clear" ], [ "back", "darksmoothstone" ], [ "front", "darksmoothstone" ] ]
+    },
+
+    {
+      "value" : [130, 103, 77, 255],
+      "comment" : "background darkwood",
+      "brush" : [ [ "clear" ], [ "back", "darkwood" ] ]
+    },
+
+    {
+      "value" : [171, 140, 110, 255],
+      "comment" : "foreground darkwood",
+      "brush" : [ [ "clear" ], [ "back", "darkwood" ], [ "front", "darkwood" ] ]
+    },
+
+    {
+      "value" : [79, 141, 204, 255],
+      "comment" : "background swirlrelief",
+      "brush" : [ [ "clear" ], [ "back", "swirlrelief" ] ]
+    },
+
+    //{
+      //"value" : [21, 129, 185, 255],
+      //"comment" : "foreground swirlrelief",
+      //"brush" : [ [ "clear" ], [ "back", "swirlrelief" ], [ "front", "swirlrelief" ] ]
+    //},
+
+    {
+      "value" : [121, 126, 136, 255],
+      "comment" : "background rockbrick",
+      "brush" : [ [ "clear" ], [ "back", "rockbrick" ] ]
+    },
+
+    {
+      "value" : [167, 172, 183, 255],
+      "comment" : "foreground rockbrick",
+      "brush" : [ [ "clear" ], [ "back", "rockbrick" ], [ "front", "rockbrick" ] ]
+    },
+
+    //{
+      //"value" : [21, 75, 185, 255],
+      //"comment" : "background crosshatch",
+      //"brush" : [ [ "clear" ], [ "back", "crosshatch" ] ]
+    //},
+
+    {
+      "value" : [174, 173, 83, 255],
+      "comment" : "foreground crosshatch",
+      "brush" : [ [ "clear" ], [ "front", "crosshatch" ] ]
+    },
+
+    {
+      "value" : [249, 172, 228, 255],
+      "comment" : "background coralrelief",
+      "brush" : [ [ "clear" ], [ "back", "coralrelief" ] ]
+    },
+
+    //{
+      //"value" : [21, 56, 185, 255],
+      //"comment" : "foreground coralrelief",
+      //"brush" : [ [ "clear" ], [ "front", "coralrelief" ] ]
+    //},
+
+    //{
+      //"value" : [35, 41, 117, 255],
+      //"comment" : "background kazship2",
+      //"brush" : [ [ "clear" ], [ "back", "kazship2" ] ]
+    //},
+
+    //{
+      //"value" : [70, 75, 146, 255],
+      //"comment" : "foreground kazship2",
+      //"brush" : [ [ "clear" ], [ "back", "kazship2" ], [ "front", "kazship2" ] ]
+    //},
+	
+	//{
+      //"value" : [35, 41, 117, 255],
+      //"comment" : "background kazcloth",
+      //"brush" : [ [ "clear" ], [ "back", "kazcloth" ] ]
+    //},
+
+    //{
+      //"value" : [70, 75, 146, 255],
+      //"comment" : "foreground kazcloth",
+      //"brush" : [ [ "clear" ], [ "back", "kazcloth" ], [ "front", "kazcloth" ] ]
+    //},
+	
+	//{
+      //"value" : [35, 41, 117, 255],
+      //"comment" : "background cobblestone",
+      //"brush" : [ [ "clear" ], [ "back", "cobblestone" ] ]
+    //},
+
+    {
+      "value" : [139, 136, 132, 255],
+      "comment" : "foreground cobblestone",
+      "brush" : [ [ "clear" ], [ "back", "cobblestone" ], [ "front", "cobblestone" ] ]
+    },
+	
+	{
+      "value" : [25, 52, 188, 255],
+      "comment" : "background agatetile",
+      "brush" : [ [ "clear" ], [ "back", "agatetile" ] ]
+    },
+
+    {
+      "value" : [24, 58, 231, 255],
+      "comment" : "foreground agatetile",
+      "brush" : [ [ "clear" ], [ "back", "agatetile" ], [ "front", "agatetile" ] ]
+    },
+
+    {
+      "value" : [32, 170, 227, 255],
+      "comment" : "water pool foreground",
+      "brush" : [ [ "clear" ], [ "liquid", "water" ] ]
+    },
+	
+	//{
+      //"value" : [54, 63, 105, 255],
+      //"comment" : "lava pool foreground",
+      //"brush" : [ [ "clear" ], [ "liquid", "lava" ] ]
+    //},
+
+    {
+      "value" : [255, 0, 0, 255],
+      "comment" : "wire #1 Red",
+      "brush" : [ [ "wire", { "group" : "group1", "local" : true } ] ]
+    },
+
+    {
+      "value" : [0, 255, 0, 255],
+      "comment" : "wire #2 Green",
+      "brush" : [ [ "wire", { "group" : "group2", "local" : true } ] ]
+    },
+
+    {
+      "value" : [0, 0, 255, 255],
+      "comment" : "wire #3 Blue",
+      "brush" : [ [ "wire", { "group" : "group3", "local" : true } ] ]
+    },
+
+    {
+      "value" : [214, 122, 244, 255],
+      "comment" : "kazdratorch",
+      "brush" : [ [ "clear" ], [ "object", "kazdratorch" ] ]
+    },
+
+    //{
+      //"value" : [255, 80, 64, 255],
+      //"comment" : "kazchest2",
+      //"brush" : [ [ "clear" ], [ "object", "kazchest2", "parameters" : { "treasurePools" : [ "basicTreasure", "kazcrystal" ] } } ] ]
+    //
+	
+	{
+      "value" : [193, 160, 129, 255],
+      "comment" : "woodencrate1, left",
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+	
+	{
+      "value" : [201, 167, 134, 255],
+      "comment" : "woodencrate1, right",
+      "brush" : [ [ "clear" ], [ "object", "woodencrate1", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [81, 202, 233, 255],
+      "comment" : "glowgem facing left",
+      "brush" : [ [ "clear" ], [ "object", "glowgem", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [85, 211, 243, 255],
+      "comment" : "glowgem facing right",
+      "brush" : [ [ "clear" ], [ "object", "glowgem", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [82, 231, 184, 255],
+      "comment" : "tinyglowgem facing left",
+      "brush" : [ [ "clear" ], [ "object", "tinyglowgem", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [73, 247, 192, 255],
+      "comment" : "tinyglowgem facing right",
+      "brush" : [ [ "clear" ], [ "object", "tinyglowgem", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [160, 123, 112, 255],
+      "comment" : "kazcapsule facing left",
+      "brush" : [ [ "clear" ], [ "object", "woodenbed", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [174, 133, 121, 255],
+      "comment" : "kazcapsule facing right",
+      "brush" : [ [ "clear" ], [ "object", "woodenbed", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [200, 42, 165, 255],
+      "comment" : "kazchest1 facing left",
+      "brush" : [ [ "clear" ], [ "object", "kazchest1", { "direction" : "left", "parameters" : { "treasurePools" : [ "kazcrystal", "richOre" ] } } ] ]
+    },
+
+    {
+      "value" : [210, 44, 173, 255],
+      "comment" : "kazchest1 facing right",
+      "brush" : [ [ "clear" ], [ "object", "kazchest1", { "direction" : "right", "parameters" : { "treasurePools" : [ "kazcrystal", "richOre" ] } } ] ]
+    },
+
+    //{
+      //"value" : [255, 159, 64, 255],
+      //"comment" : "springrock1 facing left",
+      //"brush" : [ [ "clear" ], [ "object", "springrock1", { "direction" : "left" } ] ]
+    //},
+
+    {
+      "value" : [127, 151, 130, 255],
+      "comment" : "springrock1 facing right",
+      "brush" : [ [ "clear" ], [ "object", "springrock1", { "direction" : "right" } ] ]
+    },
+	
+	{
+      "value" : [190, 131, 47, 255],
+      "comment" : "woodchair facing left",
+      "brush" : [ [ "clear" ], [ "object", "woodchair", { "direction" : "left" } ] ]
+    },
+	
+	{
+      "value" : [201, 130, 28, 255],
+      "comment" : "woodchair facing right",
+      "brush" : [ [ "clear" ], [ "object", "woodchair", { "direction" : "right" } ] ]
+    },
+
+    //{
+      //"value" : [255, 175, 64, 255],
+      //"comment" : "springrock2 facing left",
+      //"brush" : [ [ "clear" ], [ "object", "springrock2", { "direction" : "left" } ] ]
+    //},
+
+    //{
+      //"value" : [229, 158, 57, 255],
+      //"comment" : "springrock2 facing right",
+      //"brush" : [ [ "clear" ], [ "object", "springrock2", { "direction" : "right" } ] ]
+    //},
+
+    {
+      "value" : [185, 138, 195, 255],
+      "comment" : "kazswitch",
+      "brush" : [ [ "clear" ], [ "object", "kazswitch" ] ]
+    },
+
+    {
+      "value" : [255, 236, 30, 255],
+      "comment" : "techchest facing left",
+      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [229, 213, 28, 255],
+      "comment" : "techchest facing right",
+      "brush" : [ [ "clear" ], [ "object", "techchest", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [255, 191, 64, 255],
+      "comment" : "apexcoolcupboard facing left",
+      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [229, 172, 57, 255],
+      "comment" : "apexcoolcupboard facing right",
+      "brush" : [ [ "clear" ], [ "object", "apexcoolcupboard", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [255, 207, 64, 255],
+      "comment" : "apexcooldesk facing left",
+      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "left", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [229, 186, 57, 255],
+      "comment" : "apexcooldesk facing right",
+      "brush" : [ [ "clear" ], [ "object", "apexcooldesk", { "direction" : "right", "parameters" : { "treasurePools" : [ "basicTreasure" ] } } ] ]
+    },
+
+    {
+      "value" : [214, 93, 244, 255],
+      "comment" : "resoniteseed facing left",
+      "brush" : [ [ "clear" ], [ "object", "resoniteseed", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+
+    {
+      "value" : [219, 97, 249, 255],
+      "comment" : "resoniteseed facing right",
+      "brush" : [ [ "clear" ], [ "object", "resoniteseed", { "direction" : "right", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+	
+	{
+      "value" : [222, 13, 13, 255],
+      "comment" : "hironseed facing left",
+      "brush" : [ [ "clear" ], [ "object", "hironseed", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+
+    {
+      "value" : [229, 13, 13, 255],
+      "comment" : "hironseed facing right",
+      "brush" : [ [ "clear" ], [ "object", "hironseed", { "direction" : "right", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+	
+	{
+      "value" : [126, 99, 140, 255],
+      "comment" : "zoastoneseed facing left",
+      "brush" : [ [ "clear" ], [ "object", "zoastoneseed", { "direction" : "left", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+
+    {
+      "value" : [133, 106, 147, 255],
+      "comment" : "zoastoneseed facing right",
+      "brush" : [ [ "clear" ], [ "object", "zoastoneseed", { "direction" : "right", "parameters" : { "startingStage" : 2 } } ] ]
+    },
+
+    //{
+      //"value" : [190, 239, 64, 255],
+      //"comment" : "kaztable1 facing left",
+      //"brush" : [ [ "clear" ], [ "object", "kaztable1", { "direction" : "left" } ] ]
+    //},
+
+    {
+      "value" : [197, 65, 24, 255],
+      "comment" : "kaztable1 facing right",
+      "brush" : [ [ "clear" ], [ "object", "kaztable1", { "direction" : "right" } ] ]
+    },
+
+    //{
+      //"value" : [255, 255, 64, 255],
+      //"comment" : "kaztable2 facing left",
+      //"brush" : [ [ "clear" ], [ "object", "kaztable2", { "direction" : "left" } ] ]
+    //},
+
+    //{
+      //"value" : [229, 229, 57, 255],
+      //"comment" : "kaztable2 facing right",
+      //"brush" : [ [ "clear" ], [ "object", "kaztable2", { "direction" : "right" } ] ]
+    //},
+
+    //{
+      //"value" : [239, 255, 64, 255],
+      //"comment" : "kaztable3 facing left",
+      //"brush" : [ [ "clear" ], [ "object", "kaztable3", { "direction" : "left" } ] ]
+    //},
+
+    //{
+      //"value" : [215, 229, 57, 255],
+      //"comment" : "kaztable3 facing right",
+      //"brush" : [ [ "clear" ], [ "object", "kaztable3", { "direction" : "right" } ] ]
+    //},
+
+    {
+      "value" : [149, 248, 184, 255],
+      "comment" : "crystallight1",
+      "brush" : [ [ "clear" ], [ "object", "crystallight1", { "parameters" : { "defaultLightState" : true } } ] ]
+    },
+
+    {
+      "value" : [93, 215, 51, 255],
+      "comment" : "crystalinedoor facing left",
+      "brush" : [ [ "clear" ], [ "object", "crystalinedoor", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [98, 227, 53, 255],
+      "comment" : "crystalinedoor facing right",
+      "brush" : [ [ "clear" ], [ "object", "crystalinedoor", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [184, 75, 229, 255],
+      "comment" : "drassilgate facing left",
+      "brush" : [ [ "clear" ], [ "object", "drassilgate", { "direction" : "left" } ] ]
+    },
+
+    {
+      "value" : [191, 87, 235, 255],
+      "comment" : "drassilgate facing right",
+      "brush" : [ [ "clear" ], [ "object", "drassilgate", { "direction" : "right" } ] ]
+    },
+
+    {
+      "value" : [100, 206, 63, 255],
+      "comment" : "crystalinedoorh",
+      "brush" : [ [ "clear" ], [ "object", "crystalinedoorh" ] ]
+    },
+
+    //{
+      //"value" : [255, 64, 128, 255],
+      //"comment" : "drassilgateh",
+      //"brush" : [ [ "clear" ], [ "object", "drassilgateh" ] ]
+	//},
+
+    // NPC MONSTER SPAWN BRUSHES //
+
+    {
+      "value" : [0, 200, 0, 255],
+      "comment" : "kazdra weapon merchant npc",
+      "brush": [
+        [ "npc",
+          {
+            "kind": "npc",
+            "species": "kazdra",
+            "typeName": "kazdramerchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [ "kazdrasmith" ],
+                  "priceVarianceRange": [0.8, 1.2 ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ]
+    },
+	
+    //{
+      //"value" : [0, 200, 0, 255],
+      //"comment" : "kazdra instrument merchant npc",
+      //"brush": [
+        //[ "npc",
+          //{
+            //"kind": "npc",
+            //"species": "kazdra",
+            //"typeName": "kazdramerchant",
+            //"parameters": {
+              //"scriptConfig": {
+                //"noticePlayersRadius": 20.0,
+                //"merchant": {
+                  //"storeRadius": 2,
+                  //"categories": [ "kazdrainstrument" ],
+                  //"priceVarianceRange": [0.8, 1.2 ],
+                  //"numItems": 3
+                //},
+                //"sit": {
+                  //"searchRadius": 8
+                //}
+              //}
+            //}
+          //}
+        //]
+      //]
+    //},
+	
+    {
+      "value" : [0, 201, 0, 255],
+      "comment" : "kazdra food merchant npc",
+      "brush": [
+        [ "npc",
+          {
+            "kind": "npc",
+            "species": "kazdra",
+            "typeName": "kazdramerchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [ "kazdrachef" ],
+                  "priceVarianceRange": [0.8, 1.2 ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ]
+    },
+	
+    {
+      "value" : [161, 148, 7, 255],
+      "comment" : "kazdra villager npc",
+      "brush" : [
+        [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "kazdra",
+            "typeName" : "kazdravillager",
+            "parameters" : {
+              "scriptConfig" : {
+                "sit" : {
+				  "moveTimeLimit" : 30,
+                  "searchRadius" : 20
+                }
+              }
+            }
+          }
+        ]
+      ]
+    },
+	
+    //{
+      //"value" : [0, 200, 0, 255],
+      //"comment" : "kazdra guard npc",
+      //"brush": [
+        //[ "npc",
+          //{
+            //"kind": "npc",
+            //"species": "kazdra",
+            //"typeName": "kazdraguard",
+          //}
+        //]
+      //]
+    //},
+	
+    {
+      "value" : [94, 161, 7, 255],
+      "comment" : "kazdra bar tender npc",
+      "brush": [
+        [ "npc",
+          {
+            "kind": "npc",
+            "species": "kazdra",
+            "typeName": "kazdrapub",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [ "kazdrapub" ],
+                  "priceVarianceRange": [0.8, 1.2 ],
+                  "numItems": 12
+                },
+                "sit": {
+                  "searchRadius": 2
+                }
+              }
+            }
+          }
+        ]
+      ]
+    }
+	
+    //{
+      //"value" : [0, 200, 0, 255],
+      //"comment" : "kazdra galtro npc",
+      //"brush": [
+        //[ "npc",
+          //{
+            //"kind": "npc",
+            //"species": "kazdra",
+            //"typeName": "merchant",
+            //"parameters": {
+              //"scriptConfig": {
+                //"noticePlayersRadius": 20.0,
+                //"merchant": {
+                  //"storeRadius": 2,
+                  //"categories": [ "galtro" ],
+                  //"priceVarianceRange": [0.8, 1.2 ],
+                  //"numItems": 9
+                //},
+                //"sit": {
+                  //"searchRadius": 8
+                //}
+              //}
+            //}
+          //}
+        //]
+      //]
+    //},
+	
+    //{
+      //"value" : [0, 200, 0, 255],
+      //"comment" : "kazdra gem merchant npc",
+      //"brush": [
+        //[ "npc",
+          //{
+            //"kind": "npc",
+            //"species": "kazdra",
+            //"typeName": "kazdramerchant",
+            //"parameters": {
+              //"scriptConfig": {
+                //"noticePlayersRadius": 20.0,
+                //"merchant": {
+                  //"storeRadius": 2,
+                  //"categories": [ "kazdragem" ],
+                  //"priceVarianceRange": [0.8, 1.2 ],
+                  //"numItems": 9
+                //},
+                //"sit": {
+                  //"searchRadius": 8
+                //}
+              //}
+            //}
+          //}
+        //]
+      //]
+    //},
+  ],
+	
+	"parts" : [
+	  {
+	    "name" : "kazmountain1",
+		"rules" : [
+		  [ "maxSpawnCount", [1]],
+		  [ "ignorePartMaximumRule" ]
+		],
+		"def" : [ "image", [ "kazmountain1.png", "kazmountain1a.png", "kazmountain1a-wire.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch1.png", "branch1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch2.png", "branch2a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch3",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch3.png", "branch3a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch4",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch4.png", "branch4a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch5",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch5.png", "branch5a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch6",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch6.png", "branch6a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch7",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch7.png", "branch7a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch8",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch8.png", "branch8a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch9",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch9.png", "branch9a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch10",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch10.png", "branch10a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "branch11",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "branch11.png", "branch11a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "tunnel1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "tunnel1.png", "tunnel1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "tunnel2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "tunnel2.png", "tunnel2a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "juncright1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "juncright1.png", "juncright1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "juncright2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "juncright2.png", "juncright2a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "juncleft1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "juncleft1.png", "juncleft1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "juncleft2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "juncleft2.png", "juncleft2a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "junction1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "junction1.png", "junction1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "junction2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "junction2.png", "junction2a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "junction3",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "junction3.png", "junction3a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "junction4",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "junction4.png", "junction4a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "station1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "station1.png", "station1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "singingcave1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]]
+		],
+		"def" : [ "image", [ "singingcave1.png", "singingcave1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "house1",
+		"rules" : [
+		  [ "maxSpawnCount", [5]],
+		  [ "ignorePartMaximumRule" ]
+		],
+		"def" : [ "image", [ "house1.png", "house1a.png" ] ]
+	  },
+	  
+	  {
+	    "name" : "house2",
+		"rules" : [
+		  [ "maxSpawnCount", [5]],
+		  [ "ignorePartMaximumRule" ]
+		],
+		"def" : [ "image", [ "house2.png", "house2a.png" ] ]
+	  }
+	]
+}

@@ -1,0 +1,27 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/kazdra",
+		"value": {
+			"default": [
+				"What is it, zweh?",
+				"Kezha, did'ja need something?",
+				"Uh-oh, is something the matter?",
+				"Surely you've something urgent to tell me, zuu."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/kazdra",
+		"value": {
+			"default": [
+				"Zuu, I was hoping you'd forget this time around.",
+				"I'm not made of precious metals, so I hope this is enough, zweh.",
+				"Here's what I've got for ya this time!",
+				"It's not much, mate, But this is what I gathered earlier.",
+				"Aaaand that's the last of it. Zuu... I guess I'd best go scavenging again."
+			]
+		}
+	}
+]

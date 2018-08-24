@@ -1,0 +1,37 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/kazdra",
+		"value": [
+			"--Beacon--"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/rent/kazdra",
+		"value": [
+			"--Rent--"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/kazdra",
+		"value": [
+			"--Converse--"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/helpme/kazdra",
+		"value": [
+			"--Help me--"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/helpthem/kazdra",
+		"value": [
+			"--Help them--"
+		]
+	},
+]

@@ -1,0 +1,56 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/kazdra",
+		"value": {
+			"default": [
+				"Kezha! Nowhere to run!",
+				"The enemy!",
+				"You'll make a fine trophy!",
+				"Zuu... Let's make this quick.",
+				"*Sigh* Another one?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/kazdra",
+		"value": {
+			"default": [
+				"Zuu, you're dead already?",
+				"No surprise. I've bested far better, zweh.",
+				"Whew, you made me break a sweat.",
+				"Kezha, another victory!",
+				"Zuu... I get to live another day.",
+				"Zuu, No better way to loosen the muscles, I guess.",
+				"There are better ways to go out, zweh.",
+				"お前はもう死んでいる"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lostTarget/kazdra",
+		"value": {
+			"default": [
+				"An' don't come back!",
+				"Zuu... What a coward.",
+				"Zuu, where was I?",
+				"Kezha, I guess they won't be returning.",
+				"I'm not letting my guard down!",
+				"Go, run with your tail between your legs!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/reattack/kazdra",
+		"value": {
+			"default":[
+				"Kezha, you've returned!",
+				"So you've come back for more punishment, zweh?",
+				"No more hiding, zuu. I've found you!"
+			]
+		}
+	}
+]

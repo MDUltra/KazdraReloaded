@@ -1,0 +1,119 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/kazdra",
+		"value": {
+			"default": [
+				"Cause no trouble, outsider.",
+				"We'll be keeping our eyes on you, zweh.",
+				"It's best to stay out of the mines, zuu. They're dangerous.",
+				"Traveler.",
+				"Make a ruckus, Kezha, and you'll have US to answer to!"
+			],
+			"hylotl": [
+				"This is no place for meditation, outsider.",
+				"It's best to stay out of the mines, zuu. They're dangerous.",
+				"Stay out of trouble, outsider.",
+				"We'll be keeping our eyes on you, zweh."
+			],
+			"floran": [
+				"Cause no trouble, zweh.",
+				"Don't let us catch you attacking anyone, zuu, or you'll be sorry!",
+				"It's best to stay out of the mines, zuu. They're dangerous.",
+				"You look easily flammable, Kezha."
+			],
+			"avian": [
+				"Cause no trouble, spirit kin.",
+				"Kezha, it's best to stay out of the mines, spirit kin. They're dangerous.",
+				""Stay out of trouble, zuu."
+				
+			],
+			"glitch": [
+				"Kezha. Don't. Try. Anything.",
+				"We're keeping a keen eye on you, zweh. Your kin have caused nothing but trouble.",
+				"Kezha, I'm sorry, But it may be best that you leave.",
+				"Zuu. Just don't step out of line.",
+				"Kezha, we should just behead you on the spot for what trouble your kin cause for us!"
+			],
+			"kazdra": [
+				"Welcome to our settlement, Kezha.",
+				"Stay out of trouble, zuu. We can't afford to take any chances.",
+				"Care for a pint, zuu? Stop by the pub for a spell.",
+				"Welcome, kin.",
+				"If you're up to the task, the mine's over yonder, zweh.",
+				"It's good to see a new, yet familiar face around here. Keep your wits about you, kezha."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/hail/glitch",
+		"value":{
+			"kazdra":[
+				"Stern. Dragon.",
+				"Inexperienced. D-Dragon.",
+				"Alert. We'll have our eyes on you.",
+				"Disinterested. I haven't the time to deal with you or your kind.",
+				"Thoughtful. I wonder if I can use your scales to strengthen my armour...",
+				"Lifeless. I used to be an adventurer like you- until I took an arrow in the knee.",
+				"Perplexed. A-a dragon? I must've had too much to drink.",
+				"Uneasy. I could take you!"
+			]
+		}
+	}
+	/*
+	{
+		"op": "add",
+		"path": "/weaponwarning1/kazdra",
+		"value": {
+			"default": [
+				"Drop the weapon, traveler.",
+				"We cant take any chances, zuu. Put that weapon away.",
+				"Sheath your weapon, kezha."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/weaponwarning2/kazdra",
+		"value": {
+			"default": [
+				"Drop the weapon, kezha. This is your second warning.",
+				"This is no time for jokes, zuu, put the weapon away!",
+				"You are doing no good by having that weapon out, zweh."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/weaponwarning3/kazdra",
+		"value": {
+			"default": [
+				"This is your final warning, kezha. Drop it.",
+				"I'm not going to ask again. put that away!",
+				"There will be consequences if you keep this up, zuu."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/weaponSheathed/kazdra",
+		"value": {
+			"default": [
+				"Kezha, carry on."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/comeBack/kazdra",
+		"value": {
+			"default": [
+				"Zuu, I didn't want to have to do this...",
+				"Get back here!",
+				"Kezha, now you've done it!"
+			]
+		}
+	}
+	*/
+]

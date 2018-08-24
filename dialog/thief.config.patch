@@ -1,0 +1,81 @@
+[
+	{
+		"op": "add",
+		"path": "/accuse/kazdra",
+		"value": {
+			"default": [
+				"Oi! Your stealing MY stuff?!",
+				"Ay, how'd you like it if I were to steal from your stash?",
+				"Return what you've taken, kezha!",
+				"Zweh, and here I though us kazdra were greedy...",
+				"Hey! We didn't raid YOUR settlement, now did we, kezha?",
+				"Hey, we're supposed to be taking things from you-- not the other way around, zweh.",
+				"You just put that back, zuu, and I'll pretend it didn't happen."
+			],
+			"kazdra": [
+				"Don't you have any Glitch settlements to be raiding, zuu?",
+				"This is so very meta-- a kazdra raiding a kazdra settlement...",
+				"Ay, how'd you like it if I were to steal from your stash?",
+				"Return what you've taken, kezha!",
+				"You just put that back, zuu, and I'll pretend it didn't happen."
+			],
+			"glitch": [
+				"Ay, tincan! Don't you think I didn't see that!",
+				"Sure, you can take that; assuming I can take your limbs for their metal!",
+				"You just put that back, zuu, and I'll pretend it didn't happen.",
+				"Hey, we're supposed to be taking things from you-- not the other way around, zweh.",
+				"Hmm... For some reason, I wanna raid a glitch town.",
+				"Here I was hoping you weren't like the others of your kind, zuu..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/kazdra",
+		"value": {
+			"default": [
+				"Guards! Seize this thieving rascal!",
+				"Guards! This thief is turning kazdran law on its head, kezha!",
+				"Guards! there is a thief among us!"
+			],
+			"kazdra": [
+				"Guards! Seize this thieving rascal!",
+				"Guards! there is a thief among us!",
+				"Guards! One of our kind has been tamed and brainwashed by the glitch!",
+				"Guards! There is a rogue kazdra on the loose!"
+			],
+			"glitch":[
+				"Guards! Seize this thieving rascal!",
+				"Guards! there is a thief among us!",
+				"Ah, I knew you couldn't be trusted! Guards!",
+				"Oh good. I found a pile of rusty metal. Guards!",
+				"You glitch are always after our treasures, zweh! Guards, over here!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/accuse/glitch",
+		"value": {
+			"kazdra":[
+				"Spiteful. You dragons are all the same; just take whatever you want why don't you?!",
+				"Angry. This is not unprecedented, dragon. Return that this instant!",
+				"Disappointed. I assumed you were a nice person, not a thief.",
+				"Adjudging. I now know where my missing belongings went. Return them, dragon!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/alert/glitch",
+		"value":{
+			"kazdra":[
+				"Incensed. Your skull will be our trophy, dragon. Guards!",
+				"Livid. Guards! Do away with this dragon at once!",
+				"Indignant. How can you do this!? Guards, help!",
+        		"Irate. You thieving scoundrel! Guards!",
+				"Appalled. Guards, seize this dragon!"
+			]
+		}
+	}
+]
